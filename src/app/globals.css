@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors */
+  --color-primary:     #0082A6;
+  --color-snow:        #F7F5ED;
+  --color-serenity:    #C4DEE3;
+  --color-crystal:     #86B9C7;
+  --color-dark:        #1A1A1A;
+
+  /* Semantic */
+  --color-background:  #F7F5ED;
+  --color-foreground:  #1A1A1A;
+
+  /* Font */
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: #F7F5ED;
+  color: #1A1A1A;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F5ED; }
+::-webkit-scrollbar-thumb { background: #86B9C7; border-radius: 3px; }
+
+/* Infinite horizontal marquee */
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
