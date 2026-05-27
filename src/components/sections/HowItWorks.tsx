@@ -22,7 +22,7 @@ const STEPS = [
   {
     number: "02",
     title: "Isi Konten & Sesuaikan",
-    desc: "Tambahkan foto, tuliskan bio, dan atur tata letak sesukamu — semua bisa dilakukan dengan klik dan ketik.",
+    desc: "Tambahkan foto, tuliskan bio, dan atur tata letak sesukamu - semua bisa dilakukan dengan klik dan ketik.",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-10 h-10" aria-hidden>
         <rect x="6" y="10" width="36" height="28" rx="4" className="fill-[#C4DEE3]" />

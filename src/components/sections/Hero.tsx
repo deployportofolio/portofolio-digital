@@ -6,7 +6,7 @@ import Link from "next/link";
 import { fadeUp, stagger } from "@/lib/motion";
 import PortfolioMockup from "./PortfolioMockup";
 
-// Lazy-load Spline hanya di client — tidak memblokir render awal
+// Lazy-load Spline hanya di client - tidak memblokir render awal
 const SplineScene = dynamic(() => import("./SplineScene"), {
   ssr: false,
   loading: () => <PortfolioMockup />,
@@ -44,7 +44,7 @@ export default function Hero() {
 
       {/* ── Main content ── */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full grid md:grid-cols-2 gap-10 lg:gap-16 items-center py-20 md:py-24">
-        {/* Left — text */}
+        {/* Left - text */}
         <motion.div
           variants={prefersReduced ? undefined : stagger(0.12)}
           initial={prefersReduced ? false : "hidden"}
@@ -124,7 +124,7 @@ export default function Hero() {
           </motion.ul>
         </motion.div>
 
-        {/* Right — 3D scene / mockup */}
+        {/* Right - 3D scene / mockup */}
         <motion.div
           initial={prefersReduced ? false : { opacity: 0, x: 32 }}
           animate={{ opacity: 1, x: 0 }}

@@ -8,7 +8,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
   spotlightColor?: string;
 }
 
-/** Card with a radial spotlight that follows the cursor — minimal Aceternity UI-style. */
+/** Card with a radial spotlight that follows the cursor - minimal Aceternity UI-style. */
 export default function SpotlightCard({
   children,
   className = "",

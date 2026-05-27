@@ -107,7 +107,7 @@ export default function Pricing() {
               className={`relative ${plan.popular ? "md:-mt-4" : ""}`}
             >
               {plan.popular ? (
-                /* Pro card — animated glow border */
+                /* Pro card - animated glow border */
                 <motion.div
                   animate={{
                     boxShadow: [

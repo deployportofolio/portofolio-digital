@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Spline wrapper — hanya di-render di client (di-import via next/dynamic ssr:false).
+ * Spline wrapper - hanya di-render di client (di-import via next/dynamic ssr:false).
  * Ganti NEXT_PUBLIC_SPLINE_URL di .env.local dengan URL scene Spline milikmu.
  */
 
