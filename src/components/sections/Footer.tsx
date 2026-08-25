@@ -225,7 +225,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            © 2026 portofolio.digital. Semua hak dilindungi.
+            ©️ 2026 — Crafted with Portofolio Digital.
           </p>
           <div className="flex gap-5">
             <a href="#" className="text-xs text-white/30 hover:text-white/60 transition-colors">
